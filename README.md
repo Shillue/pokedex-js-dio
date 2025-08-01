@@ -63,9 +63,6 @@ Este projeto foi desenvolvido como parte do desafio **"Construindo uma Pokédex 
 
 <img width="600" height="400" alt="Captura de tela 2025-08-01 091752" src="https://github.com/user-attachments/assets/37a0a33a-e593-484d-a033-3172dcc8bb0d" />
 
-## 🔗 Link do Projeto
-
-
 ---
 
 ## 🚀 Como Executar Localmente
