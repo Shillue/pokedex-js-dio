@@ -1,0 +1,100 @@
+/* Lista de Pokémon exibida como grid */
+.pokemons {
+    display: grid;
+    place-items: center; 
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Card individual do Pokémon */
+.pokemon {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 14rem; 
+}
+
+.pokemon .number {
+    color: #000;
+    opacity: 0.3;
+    text-align: right;
+    font-size: 0.625rem;
+}
+
+.pokemon .name {
+    color: #fff;
+    margin-bottom: 0.25rem;
+    text-transform: capitalize;
+}
+
+.pokemon .detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pokemon .detail .types {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* Estilo para cada tipo */
+.pokemon .detail .types .type {
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    margin: 0.25rem 0;
+    font-size: 0.625rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+}
+
+.pokemon .detail img {
+    max-width: 100%;
+    height: 70px;
+}
+
+/* Controles de paginação */
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pagination button{
+    background-color: #6C79DB;
+    border: none;
+    border-radius: 1rem;
+    color: #FFF;
+    padding: 0.5rem 1rem;
+    margin: 0.25rem 0;
+    font-size: 0.8rem;
+}
+
+/* Grid responsivo por tamanho de tela */
+@media screen and (min-width: 380px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
