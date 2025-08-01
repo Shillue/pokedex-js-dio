@@ -33,7 +33,7 @@ Este projeto foi desenvolvido como parte do desafio **"Construindo uma Pokédex 
 
 📁 assets/ → Imagens e ícones  
 📁 css/  
-├─ global.css → Variáveis, reset e estilos base  
+├─ global.css → Estilos base  
 ├─ pokedex.css → Estilo da lista de Pokémons (index.html)  
 └─ pokemon.css → Estilo da página de detalhes (pokemon.html)  
 📁 js/  
