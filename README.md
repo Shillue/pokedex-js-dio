@@ -10,6 +10,7 @@ Este projeto foi desenvolvido como parte do desafio **"Construindo uma Pokédex 
 
 - 📃 Listagem de Pokémons com rolagem paginada
 - 🔍 Visualização detalhada de cada Pokémon em página individual
+- ❤️ Botão de **favoritar Pokémon** com alternância de ícone 
 - 🧠 Consumo dinâmico da [PokéAPI](https://pokeapi.co/)
 - 🎨 Estilização modular com variáveis CSS por tipo de Pokémon
 - 📱 Layout responsivo para desktop e mobile

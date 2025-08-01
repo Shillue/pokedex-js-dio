@@ -10,6 +10,10 @@
     margin-top: 1rem;
 }
 
+.pageContainer .header i.active{
+    color:#4b2c50;
+}
+
 .pokemon__main__detail {
     display: flex;
     justify-content: space-between;
