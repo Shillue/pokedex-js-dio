@@ -33,7 +33,7 @@ Este projeto foi desenvolvido como parte do desafio **"Construindo uma Pokédex 
 
 📁 assets/ → Imagens e ícones  
 📁 css/  
-├─ global.css → Variáveis, reset e estilos base  
+├─ global.css → Estilos base  
 ├─ pokedex.css → Estilo da lista de Pokémons (index.html)  
 └─ pokemon.css → Estilo da página de detalhes (pokemon.html)  
 📁 js/  
@@ -67,18 +67,25 @@ Este projeto foi desenvolvido como parte do desafio **"Construindo uma Pokédex 
 
 ## 🚀 Como Executar Localmente
 
-1. Clone o repositório:
-
+1. Clone o repositório:  
 ```bash
-git clone https://github.com/seuusuario/pokedex-javascript.git
+git clone https://github.com/Shillue/pokedex-js-dio.git
 ```
-2. Abra o arquivo index.html no navegador.
-
-2.1. Opção 2: Usando um servidor local com Node.js:
+2.Acesse o diretório do projeto:  
+```bash
+cd pokedex-javascript
+```     
+3. Instale o servidor HTTP local (caso ainda não tenha):   
 ```bash
 npm install -g http-server
+```   
+4. Inicie o servidor local:
+```bash   
 http-server ./
-```
+```   
+5. Abra no navegador:   
+Após iniciar o servidor, o terminal mostrará o endereço local (ex: http://127.0.0.1:8080).
+Acesse esse endereço no navegador para visualizar o projeto.
 
 ## 👨‍💻 Autor
 
